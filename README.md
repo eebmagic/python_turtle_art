@@ -1,5 +1,5 @@
 # python_turtle_art
-Digital art pieces made with python turtle
+A collection of digital art pieces made with python turtle
 
 
 red_star
