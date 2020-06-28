@@ -29,3 +29,6 @@ rotating_triangles
 
 rays
 ![rays](https://github.com/eebmagic/python_turtle_art/blob/master/rays/rays.png "rays")
+
+pattern spirograph
+![pattern_spirograph](https://github.com/eebmagic/pattern_spirograph/patternSpirograph.png)
