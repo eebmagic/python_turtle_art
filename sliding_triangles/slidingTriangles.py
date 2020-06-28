@@ -35,4 +35,9 @@ while loop:
 
 # Display all new lines
 turtle.update()
-turtle.done()
+# turtle.done()
+
+input("Press a button")
+## SAVE
+ts = turtle.getscreen()
+ts.getcanvas().postscript(file="script_output.eps")
