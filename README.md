@@ -19,7 +19,7 @@ triangle_wallpaper
 ![triangle_wallpaper](https://github.com/eebmagic/python_turtle_art/blob/master/triangle_wallpaper/filled.png "triangle_wallpaper")
 
 stamps
-![stamps](https://github.com/eebmagic/python_turtle_art/blob/master/stamps/stamps.gif "stamps") 
+![stamps](https://github.com/eebmagic/python_turtle_art/blob/master/stamps/stamps.gif "stamps")
 
 recursive_spirals
 ![recursive_spirals](https://github.com/eebmagic/python_turtle_art/blob/master/recursive_spirals/recursiveSpirals.png "recursive_spirals")
@@ -32,3 +32,6 @@ rays
 
 pattern spirograph
 ![pattern_spirograph](https://github.com/eebmagic/python_turtle_art/blob/master/pattern_spirograph/patternSpirograph.png)
+
+complex web
+![complex_web](complex_web/output.gif)
