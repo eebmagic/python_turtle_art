@@ -1,6 +1,9 @@
 # python_turtle_art
 A collection of digital art pieces made with python turtle
 
+# curvle_circle
+![curve_circle](curve_circle/video.gif "curve_circle")
+
 # red_star
 ![red_star](red_star/redStar.png)
 <br>
