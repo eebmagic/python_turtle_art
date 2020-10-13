@@ -12,6 +12,7 @@ def shape(x, size):
         x.right(180/size)
 
 # Turtle settings
+turtle.bgcolor("#FFDAB9")
 t = turtle.Turtle()
 t.hideturtle()
 t.speed("fastest")
@@ -29,9 +30,18 @@ shapeSize = 23
 turn = math.ceil((length) / count)
 
 # Main Loop
-for i in range(startShift, startShift + length, turn):
+turns = list(range(startShift, startShift + length, turn))
+a = 0
+b = len(turns) // 2
+for i in range(len(turns)):
     # t.left(i * turn + startShift)
-    t.left(i)
+    # t.left(i)
+    if i % 2 == 0:
+        t.left(turns[a])
+        a += 1
+    else:
+        t.left(turns[b])
+        b += 1
     shape(t, shapeSize)
 
     t.penup()
