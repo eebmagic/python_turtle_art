@@ -49,4 +49,10 @@ if __name__ == "__main__":
         t.penup()
 
     turtle.update()
+    input("press enter to export canvas as .eps files:... ")
+    
+    from tkinter import *
+    ts = turtle.getscreen()
+    ts.getcanvas().postscript(file="samples/curtains.eps")
+
     turtle.done()
