@@ -21,9 +21,9 @@ def build(length, height, amp, prob):
 
 
 if __name__ == "__main__":
-    w, h = 100, 200
+    w, h = 100, 300
     amp = 1
-    prob = 0.5
+    prob = 0.2
     arr = build(w, h, amp, prob)
 
     turtle.tracer(0, 0)
@@ -31,10 +31,10 @@ if __name__ == "__main__":
     t.speed("fastest")
     t.hideturtle()
 
-    x_spacing = w / 15
-    y_spacing = 3
+    x_spacing = w / 10
+    y_spacing = 2
     
-    x_adj = 400
+    x_adj = 450
     y_adj = 350
     t.penup()
 
