@@ -1,0 +1,5 @@
+# Ignored for being 1.7GB
+curtain/samples/slides/
+
+.DS_Store
+**/.DS_Store

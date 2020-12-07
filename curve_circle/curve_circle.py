@@ -3,13 +3,15 @@ import random
 import math
 
 def shape(x, size):
-    for i in range(0, size):
-        x.fd(size/2)
-        x.left(180/size)
+    angle = 180
+    modifier = 4
+    for i in range(0, size // modifier):
+        x.fd(size // modifier)
+        x.left(180 / size * modifier)
 
-    for i in range(0, size):
-        x.fd(size/2)
-        x.right(180/size)
+    for i in range(0, size // modifier):
+        x.fd(size // modifier)
+        x.right(180 / size * modifier)
 
 # Turtle settings
 turtle.bgcolor("#FFDAB9")
@@ -19,14 +21,14 @@ t.speed("fastest")
 turtle.tracer(0, 0)
 
 import time
-start = input("Waiting for user to start...")
-time.sleep(4)
+# start = input("Waiting for user to start...")
+# time.sleep(4)
 
 # Set Constants
 length = 180 + 90 + 90
 startShift = 0
 count = 130
-shapeSize = 23
+shapeSize = 65
 turn = math.ceil((length) / count)
 
 # Main Loop

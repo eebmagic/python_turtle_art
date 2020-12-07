@@ -1,5 +1,6 @@
 import turtle
 import random
+from tkinter import *
 
 
 def build(length, height, amp, prob):
@@ -26,7 +27,10 @@ if __name__ == "__main__":
     prob = 0.2
     arr = build(w, h, amp, prob)
 
+    screen = turtle.Screen()
+    screen.setup(1200, 800)
     turtle.tracer(0, 0)
+
     t = turtle.Turtle()
     t.speed("fastest")
     t.hideturtle()
@@ -34,7 +38,7 @@ if __name__ == "__main__":
     x_spacing = w / 10
     y_spacing = 2
     
-    x_adj = 450
+    x_adj = 500
     y_adj = 350
     t.penup()
 
@@ -47,12 +51,17 @@ if __name__ == "__main__":
             t.pendown()
 
         t.penup()
+        t.hideturtle()
+        turtle.update()
+        name = f"samples/slides/{r_ind:03}.eps"
+        print(f"saving with name: {name}")
+        screen.getcanvas().postscript(file=name)
+
 
     turtle.update()
-    input("press enter to export canvas as .eps files:... ")
+    # input("press enter to export canvas as .eps files:... ")
     
-    from tkinter import *
-    ts = turtle.getscreen()
-    ts.getcanvas().postscript(file="samples/curtains.eps")
+    # ts = turtle.getscreen()
+    # ts.getcanvas().postscript(file="samples/curtains.eps")
 
     turtle.done()
