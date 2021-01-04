@@ -39,3 +39,6 @@ A collection of digital art pieces made with python turtle
 
 # complex_web
 ![complex_web](complex_web/output.gif)
+
+# generated_characters
+![generated_characters](generated_characters/character_examples.png)
