@@ -1,5 +1,6 @@
 # python_turtle_art
-A collection of digital art pieces made with python turtle
+A collection of digital art pieces made with python turtle.
+Below are some of my favorites, but does not include all code in this repo.
 
 # curvle_circle
 ![curve_circle](curve_circle/video.gif "curve_circle")
@@ -22,14 +23,8 @@ A collection of digital art pieces made with python turtle
 # triangle_wallpaper
 ![triangle_wallpaper](triangle_wallpaper/filled.png "triangle_wallpaper")
 
-# stamps
-![stamps](stamps/stamps.gif "stamps")
-
 # recursive_spirals
 ![recursive_spirals](recursive_spirals/recursiveSpirals.png "recursive_spirals")
-
-# rotating_triangles
-![rotating_triangles](rotating_triangles/rotatingTriangles.png "rotating_triangles")
 
 # rays
 ![rays](rays/rays.png "rays")
