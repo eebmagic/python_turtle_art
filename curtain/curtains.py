@@ -28,7 +28,10 @@ if __name__ == "__main__":
     arr = build(w, h, amp, prob)
 
     screen = turtle.Screen()
-    screen.setup(1200, 800)
+    # screen.setup(1200, 800)
+    screenWidth = 800
+    screenHeight = 3 * screenWidth
+    screen.setup(screenWidth, screenHeight)
     turtle.tracer(0, 0)
 
     t = turtle.Turtle()
@@ -52,10 +55,10 @@ if __name__ == "__main__":
 
         t.penup()
         t.hideturtle()
-        turtle.update()
-        name = f"samples/slides/{r_ind:03}.eps"
-        print(f"saving with name: {name}")
-        screen.getcanvas().postscript(file=name)
+    turtle.update()
+    name = f"samples/canvas_output.eps"
+    print(f"saving with name: {name}")
+    screen.getcanvas().postscript(file=name)
 
 
     turtle.update()
